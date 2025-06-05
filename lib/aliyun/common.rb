@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
 
-require_relative 'common/struct'
-require_relative 'common/logging'
-require_relative 'common/exception'
+require 'aliyun/common/struct'
+require 'aliyun/common/logging'
+require 'aliyun/common/exception'

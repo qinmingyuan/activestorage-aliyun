@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 
-require_relative 'common'
-require_relative 'sts/util'
-require_relative 'sts/exception'
-require_relative 'sts/struct'
-require_relative 'sts/config'
-require_relative 'sts/protocol'
-require_relative 'sts/client'
+require 'aliyun/common'
+require 'aliyun/sts/util'
+require 'aliyun/sts/exception'
+require 'aliyun/sts/struct'
+require 'aliyun/sts/config'
+require 'aliyun/sts/protocol'
+require 'aliyun/sts/client'

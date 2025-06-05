@@ -1,7 +1,3 @@
 # frozen_string_literal: true
 
-# require "active_storage_aliyun/railtie"
-
-module ActiveStorageAliyun
-  # Your code goes here...
-end
+require 'active_storage/service/aliyun_service'

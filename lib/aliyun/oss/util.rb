@@ -78,12 +78,7 @@ module Aliyun
 
         # Get a crc value of the data
         def crc(data, init_crc = 0)
-          CrcX::crc64(init_crc, data, data.size)
-        end
-
-        # Calculate a value of the crc1 combine with crc2. 
-        def crc_combine(crc1, crc2, len2)
-          CrcX::crc64_combine(crc1, crc2, len2)
+          Digest::CRC64.hexdigest(init_crc, data, data.size)
         end
 
         def crc_check(crc_a, crc_b, operation)
