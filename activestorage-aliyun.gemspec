@@ -1,13 +1,7 @@
 # frozen_string_literal: true
-
-$LOAD_PATH.push File.expand_path("lib", __dir__)
-
-require File.expand_path("lib/active_storage_aliyun/version")
-
-# Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name = "activestorage-aliyun"
-  s.version = ActiveStorageAliyun::VERSION
+  s.version = '0.0.1'
   s.homepage = "https://github.com/huacnlee/activestorage-aliyun"
   s.summary = "Wraps the Aliyun OSS as an Active Storage service"
   s.description = "Wraps the Aliyun OSS as an Active Storage service."
