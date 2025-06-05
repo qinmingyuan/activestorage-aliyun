@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "aliyun/oss"
+require 'aliyun/oss'
 
 module ActiveStorage
   class Service::AliyunService < Service
